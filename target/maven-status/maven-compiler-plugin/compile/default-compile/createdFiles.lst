@@ -1,0 +1,7 @@
+META-INF/spring-configuration-metadata.json
+io/dreamstudio/elasticjob/autoconfigure/JobAutoConfiguration.class
+io/dreamstudio/elasticjob/autoconfigure/properties/RegCenterProperties.class
+io/dreamstudio/elasticjob/autoconfigure/RegCentreAutoConfiguration.class
+io/dreamstudio/elasticjob/annotation/JobScheduled.class
+io/dreamstudio/elasticjob/annotation/EnableElasticJob.class
+io/dreamstudio/elasticjob/autoconfigure/properties/JobEventRdbProperties.class

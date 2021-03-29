@@ -1,0 +1,94 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb",
+      "type": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "name": "elasticjob.reg.center",
+      "type": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb.enable",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.JobEventRdbProperties",
+      "name": "elasticjob.rdb.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "defaultValue": 1000,
+      "name": "elasticjob.reg.center.base-sleep-time-milliseconds",
+      "description": "等待重试的间隔时间的初始值. 单位毫秒.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "defaultValue": 0,
+      "name": "elasticjob.reg.center.connection-timeout-milliseconds",
+      "description": "连接超时时间. 单位毫秒.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "name": "elasticjob.reg.center.digest",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "defaultValue": 3,
+      "name": "elasticjob.reg.center.max-retries",
+      "description": "最大重试次数.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "defaultValue": 3000,
+      "name": "elasticjob.reg.center.max-sleep-time-milliseconds",
+      "description": "等待重试的间隔时间的最大值. 单位毫秒.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "name": "elasticjob.reg.center.namespace",
+      "description": "命名空间.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "name": "elasticjob.reg.center.server-lists",
+      "description": "连接Zookeeper服务器的列表. 包括IP地址和端口号. 多个地址用逗号分隔. 如: host1:2181,host2:2181",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "io.dreamstudio.elasticjob.autoconfigure.properties.RegCenterProperties",
+      "defaultValue": 0,
+      "name": "elasticjob.reg.center.session-timeout-milliseconds",
+      "description": "会话超时时间. 单位毫秒.",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
